@@ -32,5 +32,6 @@ def find_valid_calls(planeteer_calls)
     if element == item
       first << element
     end
+    end
   end
 end
