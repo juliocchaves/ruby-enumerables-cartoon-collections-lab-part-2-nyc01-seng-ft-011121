@@ -28,8 +28,8 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   first = []
   planeteer_calls.each do |element|
-    valid_calls
-    if element == valid_calls
+    valid_calls.each do |item|
+    if element == item
       first << element
     end
   end
